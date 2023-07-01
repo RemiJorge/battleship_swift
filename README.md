@@ -1,14 +1,22 @@
 # Bataille Navale Description
 
-![image.png](./image.png)
+<div align='center'>
+
+[Règles](#les-règles) | [Bateaux](#les-bateaux) | [Océans](#les-océans) | [Modes de jeu](#les-modes-de-jeu) | [Comment compiler et exécuter les fichiers](#comment-compiler-et-exécuter-les-fichiers) | [Crédits](#crédits) | [License](#license)
+
+Version anglaise: [README.en.md](./README.en.md) <a href="README.en.md"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Flag_of_the_United_Kingdom_%283-5%29.svg/1280px-Flag_of_the_United_Kingdom_%283-5%29.svg.png" width="20" height="15" alt="English version"></a>
+
+![image.png](./images/image.png)
 
 Bienvenue Chers Joueurs,
 
 Notre programme permet de jouer à la bataille navale avec les caractéristiques suivantes :
 
+</div>
+
 # Les règles 
 
--  Les joueurs jouent à tour de rôle.
+- Les joueurs jouent à tour de rôle.
 
 - Le joueur actif tire sur une position (voir plus loin l’espace de jeu) et le programme répond :
 
@@ -78,7 +86,17 @@ Dans les modes autre que facile, il peut y avoir match nul si aucune flotte n’
 
 # Comment compiler et exécuter les fichiers?
 
-Une fois que vous êtes dans le dossier avec les fichiers du projet, tapez la commande : " swiftc *.swift " (dans un terminal) pour compiler tous les fichiers. Ensuite, tapez la commande : "./main " pour éxécuter le programme.
+Une fois que vous êtes dans le dossier avec les fichiers du projet, tapez la commande : 
+```bash
+swiftc *.swift
+``` 
+dans un terminal pour compiler tous les fichiers. 
+
+Ensuite, tapez la commande : 
+```bash
+./main
+```
+pour éxécuter le programme.
 
 Remarque : Terminal encodé en UTF-8 nécessaire
 
@@ -96,4 +114,8 @@ Notre équipe est composée de deux programmeurs passionnés, Rémi Jorge et Ale
 - Scrum Master : Alexandre Deloire
 - Lead AI Programmer : Rémi Jorge
 
+# License
+<div align="center">
+<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Licence Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />Ce travail est sous licence <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution - Pas d'Utilisation Commerciale - Partage dans les Mêmes Conditions 4.0 International</a>.
 
+</div>
